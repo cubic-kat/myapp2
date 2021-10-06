@@ -10,7 +10,9 @@ export default function People(props) {
         console.log("You clicked add!");
         console.log(`${displayName}: ${firstName}, ${lastName}, ${company}`);
 
-        setPeople(people.push({ displayName, firstName, lastName, company }));
+        people.push({ displayName, firstName, lastName, company });
+
+        setPeople([...people]);
     }
 
     return (
