@@ -1,0 +1,20 @@
+[
+    {
+        "displayName": "Kat",
+        "firstName": "Katherine",
+        "lastName": "Aurelia",
+        "company": "Cubic Corporation"
+    },
+    {
+        "displayName": "Janet",
+        "firstName": "Janet",
+        "lastName": "Oltorf",
+        "company": "Cubic Corporation"
+    },
+    {
+        "displayName": "Cassie",
+        "firstName": "Cassandra",
+        "lastName": "Palmner",
+        "company": "Cubic Corporation"
+    }
+]

@@ -1,0 +1,8 @@
+ul.person {
+    display: inline-block;
+    list-style-type: none;
+}
+  
+ul.person li {
+    text-align: left;
+}
