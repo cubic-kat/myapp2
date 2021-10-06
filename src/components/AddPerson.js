@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import './AddPerson.css';
+import "./AddPerson.css";
 
 export default function AddPerson(props) {
     const addPerson = props.addMethod;
 
-    const [displayName, setDisplayName] = useState('');
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [company, setCompany] = useState('');
+    const [displayName, setDisplayName] = useState("");
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
+    const [company, setCompany] = useState("");
 
 
     function handleChange(e) {
@@ -16,16 +16,16 @@ export default function AddPerson(props) {
         const value = e.target.value;
 
         switch (id) {
-            case 'displayName':
+            case "displayName":
                 setDisplayName(value);
                 break;
-            case 'firstName':
+            case "firstName":
                 setFirstName(value);
                 break;
-            case 'lastName':
+            case "lastName":
                 setLastName(value);
                 break;
-            case 'company':
+            case "company":
                 setCompany(value);
                 break;
             default:

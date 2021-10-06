@@ -1,4 +1,4 @@
-import './Person.css';
+import "./Person.css";
 
 export default function Person(props) {
     return (
